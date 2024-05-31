@@ -1,0 +1,269 @@
+body{
+    font-family: "Poppins",sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #07252d;
+}
+
+
+
+#navbar{
+    background-color: #be3144;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+
+}
+#navlist{
+    display:flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    font-size:1.5em;
+    padding: 1rem 2rem;
+}
+
+a:hover{
+    background-color: #45567d;
+}
+
+#section{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    
+    font-size:4rem;
+    font-weight:700;
+}
+#section  a{
+    color:#be3144;
+    font-size: 4rem;
+    font-weight: 100;
+    font-style: italic;
+
+}
+
+h1{
+    position:relative;
+    font-size:6em;
+    text-transform: uppercase;
+    -webkit-box-reflect: below -42px linear-gradient(transparent,#0004)
+
+}
+
+h1 span{
+    animation:animate 5s linear infinite;
+}
+
+h1 span:nth-child(even)
+{
+    animation-delay:0.4s ;
+
+
+}
+
+@keyframes animate{
+
+    65.1%,80%,90.1%,92%{
+        color:#FF10F0;
+        
+        text-shadow: 0 0 10px #FF10F0,
+        0 0 40px #FF10F0,
+        0 0 80px #FF10F0,
+        0 0 120px #FF10F0,
+        0 0 160px #FF10F0,
+        0 0 400px #FF10F0;
+
+    }
+    18.1%,20.1%,30%,50%,65.1%{
+        color:white;
+        text-shadow:0 0 10px #03bcf4 ,
+        0 0 20px #03bcf4 ,
+        0 0 40px #03bcf4 ,
+        0 0 80px #03bcf4 ,
+        0 0 120px #03bcf4 ,
+        0 0 160px #03bcf4 ,
+        0 0 400px #03bcf4 ;
+
+    }
+}
+
+.project-section{
+    text-align: center;
+    
+}
+
+.project-section > h2{
+    font-size:3.2rem;
+    
+
+}
+
+.project-image{
+    height:calc(100% - 6.8rem);
+    width:100%;
+    object-fit:cover;
+}
+
+.project-title{
+    color:white;
+    width:100%;
+    background-color: #303841;
+    padding:1em;
+    margin:0;
+    padding:2rem 0;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap:4rem;
+    width:100%;
+    max-width: 1280px;
+    margin:auto;
+    margin-bottom: 6rem;
+
+}
+
+
+
+h2{
+    
+    font-size:4rem;
+    font-weight:700;
+}
+
+
+h2{
+    position:relative;
+    font-size:6em;
+    text-transform: uppercase;
+    -webkit-box-reflect: below -42px linear-gradient(transparent,#0004)
+
+}
+
+h2 span{
+    animation:animate 5s linear infinite;
+}
+
+h2 span:nth-child(even)
+{
+    animation-delay:0.4s ;
+
+
+}
+
+@keyframes animate{
+
+    65.1%,80%,90.1%,92%{
+        color:#FF10F0;
+        
+        text-shadow: 0 0 10px #FF10F0,
+        0 0 40px #FF10F0,
+        0 0 80px #FF10F0,
+        0 0 120px #FF10F0,
+        0 0 160px #FF10F0,
+        0 0 400px #FF10F0;
+
+    }
+    18.1%,20.1%,30%,50%,65.1%{
+        color:white;
+        text-shadow:0 0 10px #03bcf4 ,
+        0 0 20px #03bcf4 ,
+        0 0 40px #03bcf4 ,
+        0 0 80px #03bcf4 ,
+        0 0 120px #03bcf4 ,
+        0 0 160px #03bcf4 ,
+        0 0 400px #03bcf4 ;
+
+    }
+}
+
+#contact-section{
+    width:100%;
+    height:80vh;
+    padding:1rem 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+h2{
+    position:relative;
+    font-size:6em;
+    text-transform: uppercase;
+    -webkit-box-reflect: below -42px linear-gradient(transparent,#0004)
+
+}
+
+h2 span{
+    animation:animate 5s linear infinite;
+}
+
+h2 span:nth-child(even)
+{
+    animation-delay:0.4s ;
+
+
+}
+
+@keyframes animate{
+
+    65.1%,80%,90.1%,92%{
+        color:#FF10F0;
+        
+        text-shadow: 0 0 10px #FF10F0,
+        0 0 40px #FF10F0,
+        0 0 80px #FF10F0,
+        0 0 120px #FF10F0,
+        0 0 160px #FF10F0,
+        0 0 400px #FF10F0;
+
+    }
+    18.1%,20.1%,30%,50%,65.1%{
+        color:white;
+        text-shadow:0 0 10px #03bcf4 ,
+        0 0 20px #03bcf4 ,
+        0 0 40px #03bcf4 ,
+        0 0 80px #03bcf4 ,
+        0 0 120px #03bcf4 ,
+        0 0 160px #03bcf4 ,
+        0 0 400px #03bcf4 ;
+
+    }
+}
+
+#contact-section  p{
+    color:#be3144;
+    font-size: 4rem;
+    font-weight: 100;
+    font-style: italic;
+    padding:0%;
+
+}
+
+@media(max-width:800px){
+    h2{
+        font-size: 2.5rem;
+    }
+
+}
+
